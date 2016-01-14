@@ -30,8 +30,8 @@ function returnEvents($data, $events) {
 // "next" page attribute is falsey
 function exhaustIDPages($url, $user_IDs) {
   // Set curl variables
-  $login    = 'q2f7lfq7';
-  $password = 'ro-b846151c4e64b0db9ab9bd3d427cc4ab485c8470';
+  $login    = 'insert account id here';
+  $password = 'insert API key here';
   $headers  = array(
     'Accept: application/json',
     'Content-Type: application/json'//,
@@ -80,8 +80,8 @@ function exhaustIDPages($url, $user_IDs) {
 
 function exhaustEventPages($url, $events) {
   // Set curl variables
-  $login    = 'q2f7lfq7';
-  $password = 'ro-b846151c4e64b0db9ab9bd3d427cc4ab485c8470';
+  $login    = 'insert account ID here';
+  $password = 'insert API key here';
   $headers  = array(
     'Accept: application/json',
     'Content-Type: application/json'//,
